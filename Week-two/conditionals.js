@@ -29,47 +29,47 @@
  */
 // Write an if statement to show if someone is an adult is allowed to vote
 
-let age = prompt("Please Enter Your Age:");
-age = Number(age);
-if (age >= 18) {
-  window.alert("Adult can Vote");
-} else {
-  window.alert("You are a minor you cant Vote!");
-}
+// let age = prompt("Please Enter Your Age:");
+// age = Number(age);
+// if (age >= 18) {
+//   window.alert("Adult can Vote");
+// } else {
+//   window.alert("You are a minor you cant Vote!");
+// }
 
-switch (expression) {
-  case value1:
-    //write code - when expression === value1
-    break;
-  case value2:
-    //write code - when expression === value2
-    break;
-  case value3:
-    //write code - when expression === value3
-    break;
-  default:
-  //write code - code of the matches
-}
-
-// let paymentType = prompt("Enter Payment Method: (Cash, Mobile Money, Bank)")
-
-// switch(paymentType){
-//   case "Cash":
-//     window.alert("Process cash payment at the counter")
+// switch (expression) {
+//   case value1:
 //     //write code - when expression === value1
 //     break;
-//     case "Mobile Money":
-//       window.alert("Verify your payment details ")
-//       //write code - when expression === value2
-//       break;
-//       case "Bank":
-//         window.alert("")
-//         //write code - when expression === value3
-//         break;
-//         default:
-//           window.alert("Unkown method please check again")
-//           //write code - code of the matches
+//   case value2:
+//     //write code - when expression === value2
+//     break;
+//   case value3:
+//     //write code - when expression === value3
+//     break;
+//   default:
+//   //write code - code of the matches
 // }
+
+let paymentType = prompt("Enter Payment Method: (Cash, Mobile Money, Bank)")
+
+switch(paymentType){
+  case "Cash":
+    window.alert("Process cash payment at the counter")
+    //write code - when expression === value1
+    break;
+    case "Mobile Money":
+      window.alert("Verify your payment details ")
+      //write code - when expression === value2
+      break;
+      case "Bank":
+        window.alert("I don't want")
+        //write code - when expression === value3
+        break;
+        default:
+          window.alert("Unkown method please check again")
+          //write code - code of the matches
+}
 
 // let product = prompt("Store in : (Wood, Furniture)")
 

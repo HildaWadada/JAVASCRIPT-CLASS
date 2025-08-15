@@ -174,10 +174,10 @@ takePicture: function(){
     return this.type + 'snap'; 
 },
 playMusic: function(){
-    return this.type + ' play + pause'
+    return this.type + ' play  pause'
 },
 ring: function(){
-    return this.type + ' sound + vibrate'
+    return this.type + ' sound  vibrate'
 }
 }
 
@@ -197,16 +197,45 @@ takePicture: function(){
 }
 console.log(sumsung.takePicture())
 
+// no.2
+
 let dada = {
     email: "wadadahilda@gmail.com",
     username: "hildada",
     gender: "female",
 
     login:function(){
-        return this.username && ' Welcome' 
+        return this.email + "\n" +this.username + "\n" + this.gender
     },
+
 }
 console.log(dada.login())
+
+
+let bob = {
+    email: "bob@gmail.com",
+    username: "bob1",
+    gender: "male",
+
+    login: function(){
+        return this.email + "\n" + this.username + "\n" + this.gender
+    },
+    }
+    console.log(bob.login())
+
+    let Alice = {
+    email: "alice@gmail.com",
+    username: "alice1",
+    gender: "female",
+
+    login: function(){
+        return this.username + "\n" + this.email + "\n" + this.gender
+    },
+    }
+    console.log(Alice.login())
+
+
+
 
 
 

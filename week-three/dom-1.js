@@ -5,10 +5,13 @@ console.log(document.form);
 console.log(document.link);
 
 
-let heading = document.getElementByid("heading")
-console.log(heading)
+let heading = document.getElementById("heading")
 heading.textContent ="Welcome to MWF"
 heading.style.color = "blue"
+console.log(heading)
+
+let header =document.getElementById("first")
+header.innerHTML = "<h2>For Quality Furniture Products</h2>"
 
 
 // Events
